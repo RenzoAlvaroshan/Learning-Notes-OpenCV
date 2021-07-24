@@ -6,7 +6,7 @@ Source: [YouTube Com (2021) - Build and Install OpenCV with CUDA GPU Support on 
 
 ---
 
-**Purpose**: installing OpenCV 4.5.1 with GPU Support
+**Purpose**: building and installing OpenCV 4.5.1 with GPU Support on Windows 10
 
 **Steps**:
 1. Setup Pre-requisities
