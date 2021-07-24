@@ -92,7 +92,7 @@ Here you will replace some files and folders with new ones:
 
 ### (4) CMake GUI App
 
-Now download [CMake GUI](cmake.org/download/] app:
+Now download [CMake GUI](cmake.org/download/) app:
 ```
 cmake.org/download/
 ```
@@ -112,41 +112,34 @@ Create a folder for OpenCV in you ```C:``` drive:
 
 OpenCV_Build
 
-Next, download source code of `OpenCV-4.5.1' from:
+Next, download source code of [OpenCV-4.5.1](opencv.org/releases/)
 
-opencv.org/releases/
-
-Choose: `sources'
+Choose: ```sources```
 
 ![Pasted Graphic 23.png](blob:https://euangoddard.github.io/103c41ee-b4b1-471d-8ea1-f57656a08eb4)
 
-It will bring you to OpenCV repository in GitHub:
+It will bring you to [OpenCV repository](github.com/opencv/opencv/archive/4.5.1.zip) in GitHub:
 
-github.com/opencv/opencv/archive/4.5.1.zip
-
-Save it in folder `OpenCV_ Build' you just created:
+Save it in folder ```OpenCV_ Build``` you just created:
 
 ![Pasted Graphic 24.png](blob:https://euangoddard.github.io/33edabd5-4336-4762-8c61-91593ba6dae3)
 
-Next, go to `opencv_contrib' folder in GitHub:
-
-github.com/opencv/opencv_contrib
+Next, go to [opencv_contrib folder] (github.com/opencv/opencv_contrib) in GitHub:
 
 ![Pasted Graphic 25.png](blob:https://euangoddard.github.io/708e8eae-45c8-44a1-937c-a107aa290dba)
 
-Click `Relase' button
+Click ```Relase``` button
 
 ![Pasted Graphic 26.png](blob:https://euangoddard.github.io/8337c03a-8f79-4868-bf59-7ea227dd9e71)
 
-Download OpenCV version `4.5.1.zip' also save it in folder `OpenCV_ Build':
+Download OpenCV version ```4.5.1.zip``` also save it in folder ```OpenCV_ Build```:
 
 ![Pasted Graphic 27.png](blob:https://euangoddard.github.io/a4caf35c-5459-49fd-aae3-854f3ad4272c)
 
 Now, extract both .zip files:
 
-opencv_contrib-4.5.1.zip
-
-opencv-4.5.1.zip
+* opencv_contrib-4.5.1.zip
+* opencv-4.5.1.zip
 
 ![Pasted Graphic 28.png](blob:https://euangoddard.github.io/0fa85848-390a-4e05-9aaa-f512a793c650)
 
@@ -154,55 +147,53 @@ Now run CMake GUI app:
 
 ![Pasted Graphic 31.png](blob:https://euangoddard.github.io/613f3b75-ef78-48fd-811d-4d487e978935)
 
-In `Where is the source code:'  click `Browse' to choose the folder of files to be compiled:
+In ```Where is the source code:```  click ```Browse``` to choose the folder of files to be compiled:
 
 ![Pasted Graphic 32.png](blob:https://euangoddard.github.io/c5d9bc7a-405e-4351-a31f-ae438bb1b59f)
 
-Select `(C:) › OpenCV_Build › opencv-4.5.1 >' folder
+Select ```(C:) › OpenCV_Build › opencv-4.5.1 >``` folder
 
 ![Pasted Graphic 33.png](blob:https://euangoddard.github.io/478995fc-b2e3-43fb-a41d-bd5485ca42cc)
 
-In `Where to build the binaries'  click `Browse' to choose the folder of files for the output.
+In ```Where to build the binaries```  click ```Browse``` to choose the folder of files for the output.
 
-Create a new sub-folder named `build'
+Create a new sub-folder named ```build```
 
-C:/OpenCV_Build/build
+```C:/OpenCV_Build/build```
 
 ![Pasted Graphic 34.png](blob:https://euangoddard.github.io/7c062dfe-5c5b-4ece-a51b-2d3eaa3a0ec6)
 
-Then make sure that `Grouped' option is checked:
+Then make sure that ```Grouped``` option is checked:
 
 ![Pasted Graphic 35.png](blob:https://euangoddard.github.io/c5416260-c8b9-4225-a82f-8a71d29473a0)
 
-And click `Configure' button:
+And click ```Configure``` button:
 
 ![Pasted Graphic 36.png](blob:https://euangoddard.github.io/cc2246c0-fd61-41b3-88ce-a4de7bdaa791)
 
 Choose:
 
-- Specify the generator for this project: `Visual Studio 16 2019'
-
-- Optional platform for generator(if empty, generator uses: x64): `x64'
-
-- Use default native compilers = checked
+* Specify the generator for this project: ```Visual Studio 16 2019```
+* Optional platform for generator(if empty, generator uses: x64): ```x64```
+* Use default native compilers = checked
 
 ![Pasted Graphic 38.png](blob:https://euangoddard.github.io/36eac7de-21bd-4e17-80e2-214f463f73f2)
 
-Then click `Finish'.
+Then click ```Finish```.
 
 CMake GUI app will start to build your OpenCV:
 
 ![Pasted Graphic 39.png](blob:https://euangoddard.github.io/958d5aee-5398-4756-bab4-cb777e6bd790)
 
-Upon finish, search keyword `python' to make sure that your OpenCV is built for `Anaconda':
+Upon finish, search keyword ```python``` to make sure that your OpenCV is built for `Anaconda':
 
 ![Pasted Graphic.png](blob:https://euangoddard.github.io/43208b70-d058-40f8-86ba-37ba7dc40468)
 
-Now check that the OpenCV modules is `Unavailable' for `python3'
+Now check that the OpenCV modules is ```Unavailable``` for ```python3```
 
 ![Pasted Graphic 1.png](blob:https://euangoddard.github.io/82742bbb-6c7a-43f8-9a66-b096d711cfa7)
 
-If you don't fix this, you will encounter the most common error `ModuleNoteFoundError' when you try to `import OpenCV' as shown below:
+If you don't fix this, you will encounter the most common error ```ModuleNoteFoundError``` when you try to ```import OpenCV``` as shown below:
 
 ![Pasted Graphic 2.png](blob:https://euangoddard.github.io/94f9e88d-a7cb-44a5-8276-afe07c8a2251)
 
@@ -214,15 +205,15 @@ First, delete cache file from `File | Delete Cache' menu:
 
 ![Pasted Graphic 4.png](blob:https://euangoddard.github.io/4eeac18c-a33f-47f3-b416-dd3dd754c2a8)
 
-Then, run Anaconda prompt -- choose `Run as administrator':
+Then, run Anaconda prompt -- choose ```Run as administrator```:
 
 ![Pasted Graphic 5.png](blob:https://euangoddard.github.io/61ad6bd7-0c2d-41d1-8f8d-ce334a8dd332)
 
-Then run the following command to upgrade Numpy version to `1.19.5':
+Then run the following command to upgrade Numpy version to ```1.19.5``:
 
-C: \WINDOWS \system32>pip install-upgrade numpy
+```C: \WINDOWS \system32>pip install-upgrade numpy```
 
-Now hit `Configure' button again to re-configure CMake app:
+Now hit ```Configure`` button again to re-configure CMake app:
 
 ![Pasted Graphic 6.png](blob:https://euangoddard.github.io/48fb6013-f799-43d4-b9a7-b25de80c3a1f)
 
@@ -236,25 +227,25 @@ Also, in OpenCV module:
 
 Now let's start the configuration.
 
-Search `WITH_CUDA' keyword then enable its checkbox
+Search ```WITH_CUDA``` keyword then enable its checkbox
 
 ![Pasted Graphic 9_1.png](blob:https://euangoddard.github.io/0611882a-763b-45d1-b69f-66fdaa95ae0d)
 
 Similarly with other parameters:
 
-`OPENCV DNN CUDA'
+```OPENCV DNN CUDA```
 
 ![Pasted Graphic 10_1.png](blob:https://euangoddard.github.io/028f9f02-9d07-405c-84b0-33002d53a235)
 
-`ENABLE FAST MATH'
+```ENABLE FAST MATH```
 
 ![Pasted Graphic 11_1.png](blob:https://euangoddard.github.io/37c69c5f-b25c-4f6e-a893-292f981f11b1)
 
-`BUILD opency_world'
+```BUILD opency_world```
 
 ![Pasted Graphic 12_1.png](blob:https://euangoddard.github.io/a39b0657-c66e-422f-8ce8-4bb4ebee1ee4)
 
-`opency_python'
+```opency_python```
 
 ![Pasted Graphic 13_1.png](blob:https://euangoddard.github.io/8e3cdb0d-c832-4c3a-a5e3-a97c4e610be9)
 
