@@ -208,7 +208,7 @@ Then, run Anaconda prompt -- choose ```Run as administrator```:
 Then run the following command to upgrade Numpy version to ```1.19.5```:
 
 ```
-C: \WINDOWS \system32>pip install-upgrade numpy
+C:\WINDOWS\system32>pip install --upgrade numpy
 ```
 
 Now hit ```Configure``` button again to re-configure CMake app:
