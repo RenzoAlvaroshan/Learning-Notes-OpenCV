@@ -57,9 +57,9 @@ Choose ```CUDA Toolkit 11.0 Update 1 Downloads```:
 Choose the following options:
 
 * Operating System: ```Windows```
-* Architecture: ```x86_84```
-* Version: ```10```
-* Installer Type: ```exe (local)```
+* Architecture    : ```x86_84```
+* Version         : ```10```
+* Installer Type  : ```exe (local)```
 
 <img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126863930-4190691d-becf-4379-bd5b-90c09b9f3dd2.png">
 <img width="1440" alt="Pasted Graphic 12" src="https://user-images.githubusercontent.com/55566616/126863932-eeda04b4-03fa-402f-8944-4c65650a8fd9.png">
@@ -83,16 +83,16 @@ Then copy the extracted files and folder inside ```cudnn-11.0-windows-x64-v8.0.5
 
 Here you will replace some files and folders with new ones:
 
-* bin
-* include
-* lib
-* NVIDIA_SLA_cuDNN_Support.txt
+* ```bin```
+* ```include```
+* ```lib```
+* ```NVIDIA_SLA_cuDNN_Support.txt```
 
 <img width="1440" alt="Pasted Graphic 16" src="https://user-images.githubusercontent.com/55566616/126863972-8e0c6784-cfd8-4273-9ba1-fe68bca4b165.png">
 
 ### (4) CMake GUI App
 
-Now download CMake GUI app:
+Now download [CMake GUI](cmake.org/download/] app:
 ```
 cmake.org/download/
 ```
