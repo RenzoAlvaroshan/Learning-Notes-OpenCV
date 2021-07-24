@@ -96,7 +96,7 @@ Now download [CMake GUI](cmake.org/download/) app: ```cmake.org/download/```
 
 <img width="1440" alt="Pasted Graphic 18" src="https://user-images.githubusercontent.com/55566616/126864488-24b131c1-e309-45f0-85d2-62b1e16b339f.png">
 
-Choose files `cmake-3.19.3-win64-x64.msi', then run the installer to setup CMake in your computer.
+Choose files ```cmake-3.19.3-win64-x64.msi```, then run the installer to setup CMake in your computer.
 
 <img width="419" alt="Open File - Security Warning" src="https://user-images.githubusercontent.com/55566616/126864492-4bbaa155-75b5-40b7-bfcd-111a55fc3e3b.png">
 <img width="487" alt="Welcome to the CMake Setup Wizard" src="https://user-images.githubusercontent.com/55566616/126864495-7202ea33-52d9-44c8-aaab-d6e1976e9ea7.png">
@@ -243,7 +243,19 @@ Similarly with other parameters:
 
 <img width="1440" alt="Pasted Graphic 13" src="https://user-images.githubusercontent.com/55566616/126864711-4c866117-33c3-4178-88fa-416d607f18b5.png">
 
-Next, set the folder for ```OPENCV_EXTRA_MODULES_PATH``` by clicking three-dot [...] button
+Next, set the folder for ```OPENCV_EXTRA_MODULES_PATH``` by clicking three-dot ```...``` button
+
+---
+
+## 02 OpenCV with CUDA in Base Environment
+
+
+
+---
+
+## 03 OpenCV with CUDA in Virtual Environment
+
+
 
 ---
 
