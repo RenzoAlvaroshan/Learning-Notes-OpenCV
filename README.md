@@ -315,7 +315,9 @@ Next hit ```Generate``` button:
 
 Now open Windows Command Shell (terminal) and type:
 
-```C:\OpenCV_Build>"C:\Program Files\CMake\bin\cmake.exe" --build "C:\OpenCV_Build\build" --target INSTALL --config Release```
+```
+C:\OpenCV_Build>"C:\Program Files\CMake\bin\cmake.exe" --build "C:\OpenCV_Build\build" --target INSTALL --config Release
+```
 
 <img width="1117" alt="Pasted Graphic 33" src="https://user-images.githubusercontent.com/55566616/126870898-0bd1fecb-88d0-47af-84dc-e3ade689242f.png">
 
