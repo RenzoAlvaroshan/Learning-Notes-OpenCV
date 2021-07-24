@@ -289,7 +289,7 @@ Now search ```pref``` keyword for ```CMAKE``` parameter.
 
 <img width="1440" alt="Pasted Graphic 24" src="https://user-images.githubusercontent.com/55566616/126869668-68379266-3f90-4c0d-9ede-a346c8de7012.png">
 
-Create a sub-folder named ```install``` under ```build``` directory.
+Create a sub-folder named ```install``` under ```build``` folder.
 
 <img width="1102" alt="Pasted Graphic 25" src="https://user-images.githubusercontent.com/55566616/126869685-0d62c51f-fca6-4742-bbb4-e8650ba21ca7.png">
 
@@ -526,7 +526,7 @@ Your OpenCV is now ready to go.
 
 This is an optional process.
 
-**01** You can remove all files and folders under ```(C:) OpenCV_Build> build ›``` EXCEPT ```lib``` folder (this the working directory, DO NOT delete it!!)
+**01** You can remove all files and folders under ```(C:) OpenCV_Build> build ›``` EXCEPT ```lib``` folder (this is the working directory, DO NOT delete it!!)
 
 <img width="1435" alt="Pasted Graphic 59" src="https://user-images.githubusercontent.com/55566616/126873495-9675c2a7-51be-47e8-99d0-2c179950fa0f.png">
 
