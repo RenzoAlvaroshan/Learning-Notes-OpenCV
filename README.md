@@ -77,7 +77,7 @@ Extract the driver file (.zip) you just downloaded:
 
 Then copy the extracted files and folder inside ```cudnn-11.0-windows-x64-v8.0.5.39``` to:
 
-```(C:) › Program Files › NVIDIA GU Computing Toolkit › CUDA › v11.0 >```
+```(C:) › Program Files › NVIDIA GPU Computing Toolkit › CUDA › v11.0 >```
 
 <img width="1440" alt="Pasted Graphic 17" src="https://user-images.githubusercontent.com/55566616/126863961-5e1d3db3-6e89-4724-b816-daa72bd57cee.png">
 
