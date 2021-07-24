@@ -181,7 +181,7 @@ CMake GUI app will start to build your OpenCV:
 
 <img width="1435" alt="Pasted Graphic 39" src="https://user-images.githubusercontent.com/55566616/126864614-6d4d756f-3fd1-4291-92e4-1758adaa17bd.png">
 
-Upon finish, search keyword ```python``` to make sure that your OpenCV is built for `Anaconda':
+Upon finish, search keyword ```python``` to make sure that your OpenCV is built for ```Anaconda```:
 
 <img width="1440" alt="Pasted Graphic" src="https://user-images.githubusercontent.com/55566616/126864615-16348cd5-eeac-47e1-8d53-d4a42e8a49ed.png">
 
