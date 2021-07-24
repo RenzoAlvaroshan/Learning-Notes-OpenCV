@@ -132,8 +132,8 @@ Download OpenCV version ```4.5.1.zip``` also save it in folder ```OpenCV_ Build`
 
 Now, extract both .zip files:
 
-* opencv_contrib-4.5.1.zip
-* opencv-4.5.1.zip
+* ```opencv_contrib-4.5.1.zip```
+* ```opencv-4.5.1.zip```
 
 <img width="1440" alt="Pasted Graphic 28" src="https://user-images.githubusercontent.com/55566616/126864568-12e246b0-d469-48b5-a0c6-0258231da39f.png">
 
@@ -245,6 +245,6 @@ Similarly with other parameters:
 
 Next, set the folder for `OPENCV_EXTRA_MODULES_PATH' by clicking three-dot [...] button
 
---------------------
+---
 
-tag: #learning #notes #build #install #opencv #cuda #gpu #support #windows #2021 #thecodingbugchannel #youtube #$$$$$
+tag: ```#learning``` ```#notes``` ```#build``` ```#install``` ```#opencv``` ```#cuda``` ```#gpu``` ```#support``` ```#windows``` ```#2021``` ```#thecodingbugchannel``` ```#youtube``` ```#$$$$$```
