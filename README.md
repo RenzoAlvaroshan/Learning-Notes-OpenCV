@@ -1,4 +1,4 @@
-# Learning Notes - Build and Install OpenCV with CUDA GPU Support on Windows 10
+# Learning Notes - Build and Install OpenCV with CUDA on Windows 10
 
 Learning Notes - Build and Install OpenCV with CUDA GPU Support on Windows 10 | OpenCV 4.5.1 | 2021
 
