@@ -245,6 +245,19 @@ Similarly with other parameters:
 
 Next, set the folder for ```OPENCV_EXTRA_MODULES_PATH``` by clicking three-dot ```...``` button
 
+<img width="1440" alt="Pasted Graphic 14" src="https://user-images.githubusercontent.com/55566616/126865140-a1b29fd4-0c47-4ec6-b5a0-47b86cafcb7b.png">
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 ## 02 OpenCV with CUDA in Base Environment
