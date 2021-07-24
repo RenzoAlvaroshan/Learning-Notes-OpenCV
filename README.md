@@ -335,7 +335,7 @@ Same output will also be installed in folder:
 
 <img width="1440" alt="Pasted Graphic 36" src="https://user-images.githubusercontent.com/55566616/126870927-17fb3c58-eda0-450e-9414-dfb21bb3304b.png">
 
-Now test your built process. You should be to import cv2.
+Now test your built process. You should be able to do ```import cv2```.
 
 Open Terminal app and type ```python``` and in Python prompt, type: ```import cv2``` then hit ```<Enter>```
 
