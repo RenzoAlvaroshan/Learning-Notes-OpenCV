@@ -247,7 +247,57 @@ Next, set the folder for ```OPENCV_EXTRA_MODULES_PATH``` by clicking three-dot `
 
 <img width="1440" alt="Pasted Graphic 14" src="https://user-images.githubusercontent.com/55566616/126865140-a1b29fd4-0c47-4ec6-b5a0-47b86cafcb7b.png">
 
+Move to modules folder: ```(C:) OpenCV_Build › opencv_contrib-4.5.1 › modules```
 
+<img width="1097" alt="Pasted Graphic 15" src="https://user-images.githubusercontent.com/55566616/126869509-c3b88831-092e-401d-b884-a56a53c3ed60.png">
+
+<img width="1440" alt="Pasted Graphic 16" src="https://user-images.githubusercontent.com/55566616/126869510-1f6dc42c-da7c-4572-9e5c-9674bf43ea03.png">
+
+Hit again the ```Configure``` button. Now CMake should be able to find and detect ```cudnn.lib``` files and its suitable version.
+```
+- Found cuDNN: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/11b/x64/cudnn.lib (found suitable version "8.0.5", minimum required is "7.5")
+- CUDA detected: 11.0
+```
+
+<img width="1440" alt="Pasted Graphic 17" src="https://user-images.githubusercontent.com/55566616/126869565-9e87b3b6-836d-44f2-872f-67a28ec4f82e.png">
+
+Once detection is finished, search ```CUDA_FAST MATH``` keyword then enable its checkbox.
+
+<img width="1440" alt="Pasted Graphic 18" src="https://user-images.githubusercontent.com/55566616/126869575-56e45a8f-2d14-4c60-8613-d00e8480f049.png">
+
+Next, search CUDA architecture property of ```CUDA_ARCH_BIN``` keyword, its value should be read as ```3.5;3.7;5.0;5.2;6.0;6 1;7.0;7.5;8.0```.
+
+<img width="1440" alt="Pasted Graphic 19" src="https://user-images.githubusercontent.com/55566616/126869597-a5c2a2b3-c738-450f-81f2-22e4857e36f4.png">
+
+Now you have to find the CUDA model that suitable with your GPU architecture.
+
+In order to find the right GPU architecture, go to ```Wikipedia``` of CUDA: ```[en.wikipedia.org/wiki/CUDA](http://en.wikipedia.org/wiki/CUDA)``` to find your GPU model
+
+<img width="1440" alt="It is Wikipedia's birthday!" src="https://user-images.githubusercontent.com/55566616/126869627-4bc152b8-9d82-4871-b9cb-b326e4b50946.png">
+
+In this case, we use Nvidia GTX 1000 » then the ```Compute capability (version)``` should be ```6.1``` and its Micro-architecture is ```Pascal```
+
+<img width="1440" alt="Pasted Graphic 21" src="https://user-images.githubusercontent.com/55566616/126869638-dfc90603-ba0f-4b61-81be-80cf5d8f59dc.png">
+
+Therefore, now remove all values, except ```6.1```
+
+<img width="1440" alt="Pasted Graphic 22" src="https://user-images.githubusercontent.com/55566616/126869665-f89a7cfc-ef7d-42ec-a3de-9e7b67fbd537.png">
+
+Now search ```pref``` keyword for ```CMAKE``` parameter.
+
+<img width="1440" alt="Pasted Graphic 24" src="https://user-images.githubusercontent.com/55566616/126869668-68379266-3f90-4c0d-9ede-a346c8de7012.png">
+
+Create a sub-folder named ```install``` under ```build``` directory.
+
+<img width="1102" alt="Pasted Graphic 25" src="https://user-images.githubusercontent.com/55566616/126869685-0d62c51f-fca6-4742-bbb4-e8650ba21ca7.png">
+
+and select this folder by hitting ```Select Folder``` button:
+
+<img width="1103" alt="Pasted Graphic 26" src="https://user-images.githubusercontent.com/55566616/126869686-3e759658-0a59-4ad2-9fc8-2a689684cebe.png">
+
+Next search ```config``` keyword for ```MAKE CONFIGURATION TYPES``` then remove its value: ```Debug: Release```
+
+<img width="1440" alt="Remove Debug" src="https://user-images.githubusercontent.com/55566616/126869689-f4a46d69-865b-4be1-a3c8-d740ab366b04.png">
 
 
 
