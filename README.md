@@ -20,7 +20,7 @@ Source: [YouTube Com (2021) - Build and Install OpenCV with CUDA GPU Support on 
 
 ### (1) Anaconda Installer
 
-Download [Anaconda Installer](anaconda.com/products/individual):
+Download [Anaconda Installer](anaconda.com/products/individual): ```anaconda.com/products/individual```
 
 <img width="1440" alt="Anaconda Installers" src="https://user-images.githubusercontent.com/55566616/126862305-4bf9c0e8-b08f-4043-af9b-3743383f28a4.png">
 
