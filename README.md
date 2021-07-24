@@ -1,12 +1,12 @@
-# Learning Notes OpenCV Installation
+# Learning Notes - OpenCV Installation
 
-Learning Notes - Build and Install OpenCV With CUDA GPU Support on Windows 10 | OpenCV 4.5.1 | 2021 (TheCodingBug channel) (YouTube Com, 2021) $$$$$
+Learning Notes - Build and Install OpenCV with CUDA GPU Support on Windows 10 | OpenCV 4.5.1 | 2021
 
-Source: YouTube Com (2021) - Build and Install OpenCV with CUDA GPU Support on Windows 10 | OpenCV 4.5.1 | 2021 (TheCodingBug channel) $$$$$
+Source: [YouTube Com (2021) - Build and Install OpenCV with CUDA GPU Support on Windows 10 | OpenCV 4.5.1 | 2021 (TheCodingBug channel)](https://www.youtube.com/watch?v=YsmhKar8oOc)
 
 ---
 
-Purpose: installing OpenCV 4.5.1 with GPU Support
+**Purpose**: installing OpenCV 4.5.1 with GPU Support
 
 **Steps**:
 1. Setup Pre-requisities
@@ -14,18 +14,23 @@ Purpose: installing OpenCV 4.5.1 with GPU Support
 3. OpenCV with CUDA in Virtual Environment
   > Can be different Python version than Base Environment
 
---------------------
+---
 
 ## 01 Setup Pre-Requisite
 
 ### (1) Anaconda Installer
 
-Download Anaconda Installer:
-anaconda.com/products/individual
+Download [Anaconda Installer](anaconda.com/products/individual):
 
+<img width="1440" alt="Anaconda Installers" src="https://user-images.githubusercontent.com/55566616/126862305-4bf9c0e8-b08f-4043-af9b-3743383f28a4.png">
 
+<img width="490" alt="Anaconda3 2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862344-4c2dab10-b0c8-44df-a60e-2480f2d75c7f.png">
+<img width="491" alt="ANACONDA  Choose the folder in which to instal Anaconda3 2020 11 (64-bit)" src="https://user-images.githubusercontent.com/55566616/126862348-409286e2-6648-4f38-8917-55f68b22d734.png">
+<img width="492" alt="Anaconda3 2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862350-e348542b-7c5d-4bf3-8b91-b775248fa60a.png">
+<img width="494" alt="Anaconda3 2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862351-30e796ad-1f3b-4ceb-8404-673a6c1cbf54.png">
+<img width="496" alt="2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862355-be434046-0792-4a68-a556-73d1e5eb9948.png">
 
-Next, download `Visual Studio Community 2019 16.7.2'
+Next, download ```Visual Studio Community 2019 16.7.2```:
 
 
 
