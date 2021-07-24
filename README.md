@@ -425,10 +425,12 @@ C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/**envs/opencv_gpu/**python.exe
 
 Now add the same new path for OpenCV virtual environment to other modules:
 
-```/envs/include```                                    to  ```/envs/**opencv_gpu/**include```
-```/anaconda3/include```                               to  ```/anaconda3/**envs/opencv_gpu/**include```
-```/anaconda3/libs/python38.lib```                     to  ```/anaconda3/**envs/opencv_gpu/**libs/python38.lib```
-```/anaconda3/lib/site-packages/numpy/core/include```  to  ```/anaconda3/**envs/opencv_gpu/**lib/site-packages/numpy/core/include```
+```
+/envs/include                                    to  /envs/**opencv_gpu/**include
+/anaconda3/include                               to  /anaconda3/**envs/opencv_gpu/**include
+/anaconda3/libs/python38.lib                     to  /anaconda3/**envs/opencv_gpu/**libs/python38.lib
+/anaconda3/lib/site-packages/numpy/core/include  to  /anaconda3/**envs/opencv_gpu/**lib/site-packages/numpy/core/include
+```
 
 <img width="1440" alt="Pasted Graphic 51" src="https://user-images.githubusercontent.com/55566616/126873341-1a7f329e-1466-45ca-af19-a8e6542a9b7a.png">
 
