@@ -325,15 +325,19 @@ If the process completed without any errors, then you are done.
 
 <img width="1116" alt="Pasted Graphic 34" src="https://user-images.githubusercontent.com/55566616/126870903-54318ec7-35c2-4c9a-8366-31c7936d7bad.png">
 
-The output of your generation is installed in folder:
+The output of your generation (build) would be installed in folder:
 
-```(C:) › OpenCV_Build › build > lib > python3 › Release```
+```
+(C:) › OpenCV_Build › build > lib > python3 › Release
+```
 
 <img width="1440" alt="Pasted Graphic 35" src="https://user-images.githubusercontent.com/55566616/126870912-c14ace49-0229-4357-a5bd-58f0b563ce8e.png">
 
 Same output will also be installed in folder:
 
-```(C:) › Users › Haroon.LAPTOP-IBPFI2VB > anaconda3 > Lib › site-packages › cv2 › python-3.8```
+```
+(C:) › Users › Haroon.LAPTOP-IBPFI2VB > anaconda3 > Lib › site-packages › cv2 › python-3.8
+```
 
 <img width="1440" alt="Pasted Graphic 36" src="https://user-images.githubusercontent.com/55566616/126870927-17fb3c58-eda0-450e-9414-dfb21bb3304b.png">
 
@@ -344,10 +348,12 @@ Open Terminal app and type ```python``` and in Python prompt, type: ```import cv
 <img width="1053" alt="Pasted Graphic 38" src="https://user-images.githubusercontent.com/55566616/126870940-289fd93d-abc2-4f4e-b7cd-95bdc403790b.png">
 
 You can also use this cv2 module by typing ```cv2. __version__```:
+
 ```
 ››› cv2. __version__
 '4.5.1'
 ```
+
 <img width="1440" alt="YOLO" src="https://user-images.githubusercontent.com/55566616/126870952-77a4fa77-07a3-4d91-9731-2867364d10ef.png">
 
 ---
@@ -372,6 +378,7 @@ However if you try to activate the OpenCV by typing:
 (base) C:\Users\Haroon.LAPTOP-IBPFI2VB>conda activate opencv_gpu
 (opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>
 ```
+
 <img width="1051" alt="Pasted Graphic 45" src="https://user-images.githubusercontent.com/55566616/126873144-36e4e6b2-e003-4793-bbe1-8da7b14e47ed.png">
 
 And try to import OpenCV in your Python script by typing:
@@ -381,6 +388,7 @@ And try to import OpenCV in your Python script by typing:
 
 >>> import cv2
 ```
+
 you will get an error:
 
 ```
@@ -403,11 +411,15 @@ Then click ```Open``` button.
 
 Now the path is modified from:
 
-```C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/python.exe```
+```
+C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/python.exe
+```
 
 to:
 
-```C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/**envs/opencv_gpu/**python.exe```
+```
+C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/**envs/opencv_gpu/**python.exe
+```
 
 <img width="1440" alt="Pasted Graphic 50" src="https://user-images.githubusercontent.com/55566616/126873273-16f8e89f-ccf6-49bf-9a1a-0784490999dd.png">
 
