@@ -120,7 +120,7 @@ Save it in folder `OpenCV_ Build` you just created:
 
 <img width="1440" alt="Pasted Graphic 24" src="https://user-images.githubusercontent.com/55566616/126864532-3da3c143-4b6f-4dcc-9df1-c888580d959d.png">
 
-Next, go to [opencv_contrib folder](https://github.com/opencv/opencv_contrib) in GitHub: `github.com/opencv/opencv_contrib`
+Next, go to [opencv_contrib](https://github.com/opencv/opencv_contrib) repository in GitHub: `github.com/opencv/opencv_contrib`
 
 <img width="1440" alt="Pasted Graphic 25" src="https://user-images.githubusercontent.com/55566616/126864546-c4d7ad19-8fe6-45eb-aa31-4ca25343b6d3.png">
 
