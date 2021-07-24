@@ -243,7 +243,7 @@ Similarly with other parameters:
 
 <img width="1440" alt="Pasted Graphic 13" src="https://user-images.githubusercontent.com/55566616/126864711-4c866117-33c3-4178-88fa-416d607f18b5.png">
 
-Next, set the folder for `OPENCV_EXTRA_MODULES_PATH' by clicking three-dot [...] button
+Next, set the folder for ```OPENCV_EXTRA_MODULES_PATH``` by clicking three-dot [...] button
 
 ---
 
