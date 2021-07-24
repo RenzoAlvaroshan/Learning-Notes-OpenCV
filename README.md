@@ -56,16 +56,16 @@ Choose ```CUDA Toolkit 11.0 Update 1 Downloads```:
 
 Choose the following options:
 
-* Operating System: ```Windows```
-* Architecture    : ```x86_84```
-* Version         : ```10```
+* Operating System  : ```Windows```
+* Architecture  : ```x86_84```
+* Version : ```10```
 * Installer Type  : ```exe (local)```
 
 <img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126863930-4190691d-becf-4379-bd5b-90c09b9f3dd2.png">
 <img width="1440" alt="Pasted Graphic 12" src="https://user-images.githubusercontent.com/55566616/126863932-eeda04b4-03fa-402f-8944-4c65650a8fd9.png">
 <img width="1440" alt="cuDNN Download" src="https://user-images.githubusercontent.com/55566616/126863933-9c7b22b7-f63c-4293-9688-4b22d8dbe9d0.png">
 
-Click `Download cuDNN v8.0.5 (November 9th, 2020), for CUDA 11.0' to expand the driver list:
+Click ```Download cuDNN v8.0.5 (November 9th, 2020), for CUDA 11.0``` to expand the driver list:
 
 <img width="1440" alt="Library for Windows and Linux, Ubuntulx86_64   PPC architecture)" src="https://user-images.githubusercontent.com/55566616/126863946-19fcb2f6-e307-4fd3-9ef0-c860377ee33d.png">
 
