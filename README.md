@@ -134,7 +134,8 @@ Download OpenCV version `4.5.1.zip` also save it in folder `OpenCV_Build`:
 
 Now, extract both .zip files:
 
-```* opencv_contrib-4.5.1.zip
+```
+* opencv_contrib-4.5.1.zip
 * opencv-4.5.1.zip
 ```
 
