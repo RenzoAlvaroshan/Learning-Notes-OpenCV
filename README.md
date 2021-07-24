@@ -352,6 +352,187 @@ You can also use this cv2 module by typing ```cv2. __version__```:
 
 ## 03 OpenCV with CUDA in Virtual Environment
 
+Now create a ```virtual environment``` by typing the following command in terminal:
+
+```
+(base) C:\Users \Haroon.LAPTOP-IBPFI2VB›conda create -n opencv_gpu python=3.8
+```
+
+<img width="1052" alt="Pasted Graphic 41" src="https://user-images.githubusercontent.com/55566616/126873116-f51f0871-37dc-4b86-98a3-2e87d1e297e4.png">
+
+Click ````y```
+
+<img width="1051" alt="Pasted Graphic 42" src="https://user-images.githubusercontent.com/55566616/126873132-3cfd07f3-9adf-4f21-afe9-896977a6d529.png">
+
+However if you try to activate the OpenCV by typing:
+
+```
+(base) C:\Users\Haroon.LAPTOP-IBPFI2VB>conda activate opencv_gpu
+(opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>
+```
+<img width="1051" alt="Pasted Graphic 45" src="https://user-images.githubusercontent.com/55566616/126873144-36e4e6b2-e003-4793-bbe1-8da7b14e47ed.png">
+
+And try to import OpenCV in your Python script by typing:
+
+```
+(opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>python<Enter>
+
+>>> import cv2
+```
+you will get an error:
+
+```
+ModuleNotFoundError: No module named 'cv2'
+```
+
+<img width="1051" alt="Pasted Graphic 45" src="https://user-images.githubusercontent.com/55566616/126873232-100ad9db-bdc0-46d0-aae3-2a0a592c8886.png">
+
+To fix this problem, open again CMake GUI again and search for ```python3``` keyword:
+
+<img width="1440" alt="Pasted Graphic 48" src="https://user-images.githubusercontent.com/55566616/126873240-6d8ea1f7-274a-464d-8874-4583bc1565d2.png">
+
+You see that the path to these Python modules are not correct.
+
+Change the path of ```PYTHON3_EXECUTABLE``` and browse the ```opencv_gpu``` folder where ```python.exe``` is located.
+
+Then click ```Open``` button.
+
+<img width="1096" alt="Pasted Graphic 49" src="https://user-images.githubusercontent.com/55566616/126873264-3c1253bd-9779-4622-850e-961e346d0135.png">
+
+Now the path is modified from:
+
+```C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/python.exe```
+
+to:
+
+```C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/**envs/opencv_gpu/**python.exe```
+
+<img width="1440" alt="Pasted Graphic 50" src="https://user-images.githubusercontent.com/55566616/126873273-16f8e89f-ccf6-49bf-9a1a-0784490999dd.png">
+
+Now add the same new path for OpenCV virtual environment to other modules:
+
+```/envs/include```                                    to  ```/envs/**opencv_gpu/**include```
+```/anaconda3/include```                               to  ```/anaconda3/**envs/opencv_gpu/**include```
+```/anaconda3/libs/python38.lib```                     to  ```/anaconda3/**envs/opencv_gpu/**libs/python38.lib```
+```/anaconda3/lib/site-packages/numpy/core/include```  to  ```/anaconda3/**envs/opencv_gpu/**lib/site-packages/numpy/core/include```
+
+<img width="1440" alt="Pasted Graphic 51" src="https://user-images.githubusercontent.com/55566616/126873341-1a7f329e-1466-45ca-af19-a8e6542a9b7a.png">
+
+Previously we have installed Numpy for ```base environment```, but have not yet for ```virtual environment```.
+
+Now let’s do that again for virtual environment. Open terminal and type:
+
+```
+(opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>pip install --upgrade numpy
+```
+
+<img width="901" alt="Pasted Graphic 52" src="https://user-images.githubusercontent.com/55566616/126873355-09de1a9a-ef97-4912-a051-86759a770831.png">
+
+We have to repeat the same process for ```virtual environment``` as we did for ```base environment```, including configuration process, build process, and install process (Notes: you don’t have to separate between ```build-process``` and ```install-process```)
+
+Next, push ```Configure``` button:
+
+<img width="1440" alt="Pasted Graphic 53" src="https://user-images.githubusercontent.com/55566616/126873382-f8a11ca2-4a4a-4a70-9816-2f46c5118cde.png">
+
+Now see that our configuration have been bound to virtual environment.
+
+<img width="939" alt="Pasted Graphic 54" src="https://user-images.githubusercontent.com/55566616/126873392-039247ae-9a13-4c27-b54a-e220986f0ced.png">
+
+Next, hit ```Generate``` button to build OpenCV in virtual environment:
+
+<img width="1435" alt="Pasted Graphic 55" src="https://user-images.githubusercontent.com/55566616/126873397-72106a6b-22bd-4f94-9b0f-0bdd6ce2f9ad.png">
+
+Now open Windows Command Shell (terminal) and type:
+
+```
+C:\OpenCV_Build>"C:\Program Files\CMake\bin\cmake.exe" --build "C:\OpenCV_Build\build" --target INSTALL --config Release
+```
+
+<img width="894" alt="Pasted Graphic 56" src="https://user-images.githubusercontent.com/55566616/126873427-4d10b1a5-abc6-4677-bbaa-4a2968e35777.png">
+
+And try to import OpenCV in your Python script by typing:
+
+```
+(opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>python <Enter>
+
+>>> import cv2
+```
+
+Also, you can now use this cv2 module by typing ```cv2. __version__```:
+
+```
+››› cv2. __version__
+'4.5.1'
+```
+
+<img width="1440" alt="YOLO" src="https://user-images.githubusercontent.com/55566616/126873435-e724860b-cd64-4e7c-9bae-32bb2e64964c.png">
+
+Finally, you test your OpenCV installed base using the following script:
+
+```
+(base) C:\OpenCV_Build›python test_script.py
+```
+
+[test_script.py] (https://github.com/haroonshakeel/opencv4.5.1_with_cuda_gpu/blob/main/test_script.py): github.com/haroonshakeel/opencv4.5.1_with_cuda_gpu/blob/main/test_script.py
+
+```
+import numpy as np
+import cv2 as cv
+import time
+
+npTmp = np.random.random((1024, 1024)).astype(np.float32)
+
+npMat1 = np.stack([npTmp,npTmp],axis=2)
+npMat2 = npMat1
+
+cuMat1 = cv.cuda_GpuMat()
+cuMat2 = cv.cuda_GpuMat()
+cuMat1.upload(npMat1)
+cuMat2.upload(npMat2)
+start_time = time.time()
+cv.cuda.gemm(cuMat1, cuMat2,1,None,0,None,1)
+print("CUDA --- %s seconds ---" % (time.time() - start_time))
+start_time = time.time()
+
+cv.gemm(npMat1,npMat2,1,None,0,None,1)
+print("CPU --- %s seconds ---" % (time.time() - start_time))
+```
+
+<img width="1435" alt="Pasted Graphic 57" src="https://user-images.githubusercontent.com/55566616/126873472-74fe25d8-ce1e-429b-be0c-242330c5c297.png">
+
+It is perfectly working.
+
+Your OpenCV is now ready to go.
+
+---
+
+## 04 Clean Up Your Installation
+
+This is an optional process.
+
+**01** You can remove all files and folders under ```(C:) OpenCV_Build> build ›``` EXCEPT ```lib``` folder (this the working directory, DO NOT delete it!!)
+
+<img width="1435" alt="Pasted Graphic 59" src="https://user-images.githubusercontent.com/55566616/126873495-9675c2a7-51be-47e8-99d0-2c179950fa0f.png">
+
+**02** You can also remove the following folders under ```(C:) OpenCV_Build›``` folder:
+
+• ```opencv_contrib-4.5.1```
+• ```opencv-4.5.1```
+
+<img width="1435" alt="Pasted Graphic 60" src="https://user-images.githubusercontent.com/55566616/126873515-8542aba9-14ac-4ae9-ad7e-072d1c33aa11.png">
+
+**03** Move the two download zip files to ```other_stuff``` folder:
+
+• ```opencv_contrib-4.5.1.zip```
+• ```opencv-4.5.1.zip```
+
+<img width="1435" alt="Pasted Graphic 61" src="https://user-images.githubusercontent.com/55566616/126873529-1f9cbe3f-9fc2-4757-9d71-4098326da699.png">
+
+--------------------
+
+Voila… you’re done.
+
+Congratulation!
 
 
 ---
