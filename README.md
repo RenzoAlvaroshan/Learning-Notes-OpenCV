@@ -124,18 +124,19 @@ Next, go to [opencv_contrib](https://github.com/opencv/opencv_contrib) repositor
 
 <img width="1440" alt="Pasted Graphic 25" src="https://user-images.githubusercontent.com/55566616/126864546-c4d7ad19-8fe6-45eb-aa31-4ca25343b6d3.png">
 
-Click `Relase` button
+Click `Release` button
 
 <img width="1440" alt="Pasted Graphic 26" src="https://user-images.githubusercontent.com/55566616/126864548-d1ffe6ea-0ba7-4da9-a4b0-a0d8f78a3908.png">
 
-Download OpenCV version `4.5.1.zip` also save it in folder `OpenCV_ Build`:
+Download OpenCV version `4.5.1.zip` also save it in folder `OpenCV_Build`:
 
 <img width="1057" alt="Pasted Graphic 27" src="https://user-images.githubusercontent.com/55566616/126864558-4b10e14b-e83b-467a-aaa3-0cfd35b28dc2.png">
 
 Now, extract both .zip files:
 
-* `opencv_contrib-4.5.1.zip`
-* `opencv-4.5.1.zip`
+```* opencv_contrib-4.5.1.zip
+* opencv-4.5.1.zip
+```
 
 <img width="1440" alt="Pasted Graphic 28" src="https://user-images.githubusercontent.com/55566616/126864568-12e246b0-d469-48b5-a0c6-0258231da39f.png">
 
