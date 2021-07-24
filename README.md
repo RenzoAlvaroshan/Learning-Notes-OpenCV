@@ -39,7 +39,6 @@ Next, download [Visual Studio Community 2019 16.7.2](https://www.youtube.com/red
 Select ```Desktop development with C++``` option for Studio Code C++ support
 
 <img width="1440" alt="Installation details" src="https://user-images.githubusercontent.com/55566616/126863270-c24e8363-53b4-405d-b130-51cbd7b83ade.png">
---------------------
 
 ### (3) Cuda Toolkit Update
 
@@ -62,27 +61,25 @@ Choose the following options:
 * Version: ```10```
 * Installer Type: ```exe (local)```
 
-![Pasted Graphic 11.png](blob:https://euangoddard.github.io/4e13ae56-93df-45b8-b054-4b12141f13b6)
-
-![Pasted Graphic 12.png](blob:https://euangoddard.github.io/1f611268-a547-44da-9642-d18a3d19b232)
-
-![Pasted Graphic 13.png](blob:https://euangoddard.github.io/43cedd1d-e8f0-4fdd-b663-b9365dca262a)
+<img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126863930-4190691d-becf-4379-bd5b-90c09b9f3dd2.png">
+<img width="1440" alt="Pasted Graphic 12" src="https://user-images.githubusercontent.com/55566616/126863932-eeda04b4-03fa-402f-8944-4c65650a8fd9.png">
+<img width="1440" alt="cuDNN Download" src="https://user-images.githubusercontent.com/55566616/126863933-9c7b22b7-f63c-4293-9688-4b22d8dbe9d0.png">
 
 Click `Download cuDNN v8.0.5 (November 9th, 2020), for CUDA 11.0' to expand the driver list:
 
-<img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126863616-b7964421-4729-4440-9a22-ea5323adfe12.png">
+<img width="1440" alt="Library for Windows and Linux, Ubuntulx86_64   PPC architecture)" src="https://user-images.githubusercontent.com/55566616/126863946-19fcb2f6-e307-4fd3-9ef0-c860377ee33d.png">
 
 Click ```cuDNN Library for Windows (x86)``` now the driver will be downloading.
 
 Extract the driver file (.zip) you just downloaded:
 
-<img width="1440" alt="Pasted Graphic 12" src="https://user-images.githubusercontent.com/55566616/126863628-6d2ad1d7-2174-47ca-8c1b-b9514106dc13.png">
+<img width="1440" alt="Pasted Graphic 15" src="https://user-images.githubusercontent.com/55566616/126863951-ecae92ed-050c-4e9d-b630-7851aa87ad2b.png">
 
 Then copy the extracted files and folder inside ```cudnn-11.0-windows-x64-v8.0.5.39``` to:
 
 ```(C:) › Program Files › NVIDIA GU Computing Toolkit › CUDA › v11.0 >```
 
-<img width="1440" alt="cuDNN Download" src="https://user-images.githubusercontent.com/55566616/126863639-ff7d7d24-9d11-4470-b0b2-2b9de9aa8181.png">
+<img width="1440" alt="Pasted Graphic 17" src="https://user-images.githubusercontent.com/55566616/126863961-5e1d3db3-6e89-4724-b816-daa72bd57cee.png">
 
 Here you will replace some files and folders with new ones:
 
@@ -91,16 +88,14 @@ Here you will replace some files and folders with new ones:
 * lib
 * NVIDIA_SLA_cuDNN_Support.txt
 
-<img width="1440" alt="Library for Windows and Linux, Ubuntulx86_64   PPC architecture)" src="https://user-images.githubusercontent.com/55566616/126863659-098839da-e6d9-4ad6-9211-c4db50436b6f.png">
-
---------------------
+<img width="1440" alt="Pasted Graphic 16" src="https://user-images.githubusercontent.com/55566616/126863972-8e0c6784-cfd8-4273-9ba1-fe68bca4b165.png">
 
 ### (4) CMake GUI App
 
 Now download CMake GUI app:
-
+```
 cmake.org/download/
-
+```
 ![Pasted Graphic 18.png](blob:https://euangoddard.github.io/ac8d0e01-3542-4c22-9291-cdd6a0ec7113)
 
 Choose files `cmake-3.19.3-win64-x64.msi', then run the installer to setup CMake in your computer.
@@ -111,11 +106,9 @@ Choose files `cmake-3.19.3-win64-x64.msi', then run the installer to setup CMake
 
 ![Pasted Graphic 21.png](blob:https://euangoddard.github.io/6fc973bd-5e1a-40ae-99b0-1e2d034f2321)
 
---------------------
-
 ### (5) OpenCV Setup
 
-Create a folder for OpenCV in you C: drive:
+Create a folder for OpenCV in you ```C:``` drive:
 
 OpenCV_Build
 
