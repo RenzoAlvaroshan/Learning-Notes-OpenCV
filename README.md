@@ -32,7 +32,7 @@ Download [Anaconda Installer](anaconda.com/products/individual): ```anaconda.com
 
 ### (2) Microsoft Visual Studio
 
-Next, download [Visual Studio Community 2019 16.7.2](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUZjbnZwVWxneDBhZnNGZExHa0FlR2FiTEZ3d3xBQ3Jtc0trQ0doYzVlSDBDMDJEM2lpOWNMcXlkZFBMLTRlTzNUbU5LWnRGOWRJRmIzeGd0cVFjMXVqWk5INTNidzJNLXczVHcxbGpzS0FvV3NxTmk0cW1LMmRWdGZhRHdXNk9BRW5aTl83TzJNYldiLV9oU0RsTQ&q=https%3A%2F%2Fvisualstudio.microsoft.com%2Fvs%2Fcommunity%2F):
+Next, download [Visual Studio Community 2019 16.7.2](https://visualstudio.microsoft.com/vs/community/): ```https://visualstudio.microsoft.com/vs/community/```
 
 <img width="1440" alt="components Language packs" src="https://user-images.githubusercontent.com/55566616/126863268-c9f0dd02-4bc3-4408-a886-0dc58b908d85.png">
 
@@ -42,7 +42,7 @@ Select ```Desktop development with C++``` option for Studio Code C++ support
 
 ### (3) Cuda Toolkit Update
 
-Now download [CUDA Toolkit 11.0 Update Downloads](developer.nvidia.com/cuda-11.0-update1-download-archive?target_os=Windows&target_arch=x86_64):
+Now download [CUDA Toolkit 11.0 Update Downloads](developer.nvidia.com/cuda-11.0-update1-download-archive?target_os=Windows&target_arch=x86_64): ```developer.nvidia.com/cuda-11.0-update1-download-archive?target_os=Windows&target_arch=x86_64```
 
 <img width="1440" alt="Resources" src="https://user-images.githubusercontent.com/55566616/126863551-7019a69a-7f41-4b75-bc71-7ee6a98f8afb.png">
 
@@ -56,10 +56,10 @@ Choose ```CUDA Toolkit 11.0 Update 1 Downloads```:
 
 Choose the following options:
 
-* Operating System  : ```Windows```
-* Architecture  : ```x86_84```
-* Version : ```10```
-* Installer Type  : ```exe (local)```
+* Operating System: ```Windows```
+* Architecture: ```x86_84```
+* Version: ```10```
+* Installer Type: ```exe (local)```
 
 <img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126863930-4190691d-becf-4379-bd5b-90c09b9f3dd2.png">
 <img width="1440" alt="Pasted Graphic 12" src="https://user-images.githubusercontent.com/55566616/126863932-eeda04b4-03fa-402f-8944-4c65650a8fd9.png">
@@ -92,68 +92,62 @@ Here you will replace some files and folders with new ones:
 
 ### (4) CMake GUI App
 
-Now download [CMake GUI](cmake.org/download/) app:
-```
-cmake.org/download/
-```
-![Pasted Graphic 18.png](blob:https://euangoddard.github.io/ac8d0e01-3542-4c22-9291-cdd6a0ec7113)
+Now download [CMake GUI](cmake.org/download/) app: ```cmake.org/download/```
+
+<img width="1440" alt="Pasted Graphic 18" src="https://user-images.githubusercontent.com/55566616/126864488-24b131c1-e309-45f0-85d2-62b1e16b339f.png">
 
 Choose files `cmake-3.19.3-win64-x64.msi', then run the installer to setup CMake in your computer.
 
-![Pasted Graphic 20.png](blob:https://euangoddard.github.io/b2a1707b-1ca2-4e28-a6be-f5e18de3f3b9)
-
-![Pasted Graphic 21.png](blob:https://euangoddard.github.io/6fc973bd-5e1a-40ae-99b0-1e2d034f2321)
-
-![Pasted Graphic 21.png](blob:https://euangoddard.github.io/6fc973bd-5e1a-40ae-99b0-1e2d034f2321)
+<img width="419" alt="Open File - Security Warning" src="https://user-images.githubusercontent.com/55566616/126864492-4bbaa155-75b5-40b7-bfcd-111a55fc3e3b.png">
+<img width="487" alt="Welcome to the CMake Setup Wizard" src="https://user-images.githubusercontent.com/55566616/126864495-7202ea33-52d9-44c8-aaab-d6e1976e9ea7.png">
+<img width="487" alt="Welcome to the CMake Setup Wizard" src="https://user-images.githubusercontent.com/55566616/126864496-e0e5be17-89c3-47e3-94c2-aa520b4348bb.png">
 
 ### (5) OpenCV Setup
 
-Create a folder for OpenCV in you ```C:``` drive:
+Create a folder for OpenCV in you ```C:``` drive: ```OpenCV_Build```
 
-OpenCV_Build
-
-Next, download source code of [OpenCV-4.5.1](opencv.org/releases/)
+Next, download source code of [OpenCV-4.5.1](opencv.org/releases/) from: ```opencv.org/releases/```
 
 Choose: ```sources```
 
-![Pasted Graphic 23.png](blob:https://euangoddard.github.io/103c41ee-b4b1-471d-8ea1-f57656a08eb4)
+<img width="1440" alt="Releases" src="https://user-images.githubusercontent.com/55566616/126864516-a2b18725-8b62-4961-8b03-13fc0bcd64bd.png">
 
-It will bring you to [OpenCV repository](github.com/opencv/opencv/archive/4.5.1.zip) in GitHub:
+It will bring you to [OpenCV repository](github.com/opencv/opencv/archive/4.5.1.zip) in GitHub: ```github.com/opencv/opencv/archive/4.5.1.zip```
 
 Save it in folder ```OpenCV_ Build``` you just created:
 
-![Pasted Graphic 24.png](blob:https://euangoddard.github.io/33edabd5-4336-4762-8c61-91593ba6dae3)
+<img width="1440" alt="Pasted Graphic 24" src="https://user-images.githubusercontent.com/55566616/126864532-3da3c143-4b6f-4dcc-9df1-c888580d959d.png">
 
-Next, go to [opencv_contrib folder] (github.com/opencv/opencv_contrib) in GitHub:
+Next, go to [opencv_contrib folder] (github.com/opencv/opencv_contrib) in GitHub: ```github.com/opencv/opencv_contrib```
 
-![Pasted Graphic 25.png](blob:https://euangoddard.github.io/708e8eae-45c8-44a1-937c-a107aa290dba)
+<img width="1440" alt="Pasted Graphic 25" src="https://user-images.githubusercontent.com/55566616/126864546-c4d7ad19-8fe6-45eb-aa31-4ca25343b6d3.png">
 
 Click ```Relase``` button
 
-![Pasted Graphic 26.png](blob:https://euangoddard.github.io/8337c03a-8f79-4868-bf59-7ea227dd9e71)
+<img width="1440" alt="Pasted Graphic 26" src="https://user-images.githubusercontent.com/55566616/126864548-d1ffe6ea-0ba7-4da9-a4b0-a0d8f78a3908.png">
 
 Download OpenCV version ```4.5.1.zip``` also save it in folder ```OpenCV_ Build```:
 
-![Pasted Graphic 27.png](blob:https://euangoddard.github.io/a4caf35c-5459-49fd-aae3-854f3ad4272c)
+<img width="1057" alt="Pasted Graphic 27" src="https://user-images.githubusercontent.com/55566616/126864558-4b10e14b-e83b-467a-aaa3-0cfd35b28dc2.png">
 
 Now, extract both .zip files:
 
 * opencv_contrib-4.5.1.zip
 * opencv-4.5.1.zip
 
-![Pasted Graphic 28.png](blob:https://euangoddard.github.io/0fa85848-390a-4e05-9aaa-f512a793c650)
+<img width="1440" alt="Pasted Graphic 28" src="https://user-images.githubusercontent.com/55566616/126864568-12e246b0-d469-48b5-a0c6-0258231da39f.png">
 
 Now run CMake GUI app:
 
-![Pasted Graphic 31.png](blob:https://euangoddard.github.io/613f3b75-ef78-48fd-811d-4d487e978935)
+<img width="1440" alt="Pasted Graphic 31" src="https://user-images.githubusercontent.com/55566616/126864570-e5cf6c40-c691-4617-b763-aa05cc4f5a0b.png">
 
 In ```Where is the source code:```  click ```Browse``` to choose the folder of files to be compiled:
 
-![Pasted Graphic 32.png](blob:https://euangoddard.github.io/c5d9bc7a-405e-4351-a31f-ae438bb1b59f)
+<img width="1440" alt="Pasted Graphic 32" src="https://user-images.githubusercontent.com/55566616/126864581-6cddf0fe-75cc-46a8-9892-c8f702c72486.png">
 
 Select ```(C:) › OpenCV_Build › opencv-4.5.1 >``` folder
 
-![Pasted Graphic 33.png](blob:https://euangoddard.github.io/478995fc-b2e3-43fb-a41d-bd5485ca42cc)
+<img width="1108" alt="Pasted Graphic 33" src="https://user-images.githubusercontent.com/55566616/126864583-ac500673-4e77-4dc8-9139-74e7e3fab185.png">
 
 In ```Where to build the binaries```  click ```Browse``` to choose the folder of files for the output.
 
@@ -161,15 +155,15 @@ Create a new sub-folder named ```build```
 
 ```C:/OpenCV_Build/build```
 
-![Pasted Graphic 34.png](blob:https://euangoddard.github.io/7c062dfe-5c5b-4ece-a51b-2d3eaa3a0ec6)
+<img width="1108" alt="Pasted Graphic 34" src="https://user-images.githubusercontent.com/55566616/126864591-ad9cadbe-6c1d-4fbd-be17-984cd4ab9136.png">
 
 Then make sure that ```Grouped``` option is checked:
 
-![Pasted Graphic 35.png](blob:https://euangoddard.github.io/c5416260-c8b9-4225-a82f-8a71d29473a0)
+<img width="1440" alt="Pasted Graphic 35" src="https://user-images.githubusercontent.com/55566616/126864593-79a8759d-d5dd-47ad-9dd8-f2903a815a58.png">
 
 And click ```Configure``` button:
 
-![Pasted Graphic 36.png](blob:https://euangoddard.github.io/cc2246c0-fd61-41b3-88ce-a4de7bdaa791)
+<img width="1440" alt="Pasted Graphic 36" src="https://user-images.githubusercontent.com/55566616/126864598-45c32717-6fe4-4ef4-8baa-995359237b9b.png">
 
 Choose:
 
@@ -177,77 +171,77 @@ Choose:
 * Optional platform for generator(if empty, generator uses: x64): ```x64```
 * Use default native compilers = checked
 
-![Pasted Graphic 38.png](blob:https://euangoddard.github.io/36eac7de-21bd-4e17-80e2-214f463f73f2)
+<img width="430" alt="Specify the generator for this project" src="https://user-images.githubusercontent.com/55566616/126864603-9672a899-af58-42ee-af60-1e8d92c3f35c.png">
 
 Then click ```Finish```.
 
 CMake GUI app will start to build your OpenCV:
 
-![Pasted Graphic 39.png](blob:https://euangoddard.github.io/958d5aee-5398-4756-bab4-cb777e6bd790)
+<img width="1435" alt="Pasted Graphic 39" src="https://user-images.githubusercontent.com/55566616/126864614-6d4d756f-3fd1-4291-92e4-1758adaa17bd.png">
 
 Upon finish, search keyword ```python``` to make sure that your OpenCV is built for `Anaconda':
 
-![Pasted Graphic.png](blob:https://euangoddard.github.io/43208b70-d058-40f8-86ba-37ba7dc40468)
+<img width="1440" alt="Pasted Graphic" src="https://user-images.githubusercontent.com/55566616/126864615-16348cd5-eeac-47e1-8d53-d4a42e8a49ed.png">
 
 Now check that the OpenCV modules is ```Unavailable``` for ```python3```
 
-![Pasted Graphic 1.png](blob:https://euangoddard.github.io/82742bbb-6c7a-43f8-9a66-b096d711cfa7)
+<img width="1440" alt="Pasted Graphic 1" src="https://user-images.githubusercontent.com/55566616/126864620-f3a35b15-6db9-471d-94c5-17cdc7528436.png">
 
 If you don't fix this, you will encounter the most common error ```ModuleNoteFoundError``` when you try to ```import OpenCV``` as shown below:
 
-![Pasted Graphic 2.png](blob:https://euangoddard.github.io/94f9e88d-a7cb-44a5-8276-afe07c8a2251)
+<img width="783" alt="Traceback (most recent call last)" src="https://user-images.githubusercontent.com/55566616/126864624-b52f01d0-0770-4e28-9507-a2753940cf68.png">
 
 This is due to mismatch of Numpy version. We can fix it by by updating Numpy.
 
-![Pasted Graphic 3.png](blob:https://euangoddard.github.io/e7b6c275-1b95-44bd-9c8e-d14ae68bf8e0)
+<img width="1440" alt="Pasted Graphic 3" src="https://user-images.githubusercontent.com/55566616/126864637-03392071-0f06-49f3-9a8b-7286c399ca27.png">
 
 First, delete cache file from `File | Delete Cache' menu:
 
-![Pasted Graphic 4.png](blob:https://euangoddard.github.io/4eeac18c-a33f-47f3-b416-dd3dd754c2a8)
+<img width="356" alt="Reload Cache" src="https://user-images.githubusercontent.com/55566616/126864641-da2f07fc-a919-4b3d-ba0f-4b513a1300a0.png">
 
 Then, run Anaconda prompt -- choose ```Run as administrator```:
 
-![Pasted Graphic 5.png](blob:https://euangoddard.github.io/61ad6bd7-0c2d-41d1-8f8d-ce334a8dd332)
+<img width="904" alt="Anaconda Prompt (anaconda3)" src="https://user-images.githubusercontent.com/55566616/126864644-304ceccb-5f7a-4f36-84c1-96a676675e2d.png">
 
-Then run the following command to upgrade Numpy version to ```1.19.5``:
+Then run the following command to upgrade Numpy version to ```1.19.5```:
 
 ```C: \WINDOWS \system32>pip install-upgrade numpy```
 
 Now hit ```Configure`` button again to re-configure CMake app:
 
-![Pasted Graphic 6.png](blob:https://euangoddard.github.io/48fb6013-f799-43d4-b9a7-b25de80c3a1f)
+<img width="452" alt="Specify the generator for this project" src="https://user-images.githubusercontent.com/55566616/126864648-04e0a3c1-e4d8-41ff-b01c-b3e08debef57.png">
 
 Now you'll see additional information in Python3 module:
 
-![Pasted Graphic 7.png](blob:https://euangoddard.github.io/67f87ad1-b77e-411c-9bb4-933391a70a42)
+<img width="1440" alt="Pasted Graphic 7" src="https://user-images.githubusercontent.com/55566616/126864654-da1a6771-4a37-4d0a-97c0-39e56fbd6b34.png">
 
 Also, in OpenCV module:
 
-![Pasted Graphic 8_1.png](blob:https://euangoddard.github.io/90e495b9-6a47-4732-8e39-ba441f7ce0f7)
+<img width="1435" alt="Pasted Graphic 8" src="https://user-images.githubusercontent.com/55566616/126864656-bab199df-e952-468d-8034-ab9134902a6d.png">
 
 Now let's start the configuration.
 
 Search ```WITH_CUDA``` keyword then enable its checkbox
 
-![Pasted Graphic 9_1.png](blob:https://euangoddard.github.io/0611882a-763b-45d1-b69f-66fdaa95ae0d)
+<img width="1440" alt="Pasted Graphic 9" src="https://user-images.githubusercontent.com/55566616/126864664-449743a3-d940-449a-a8c3-5492cfa3f4dd.png">
 
 Similarly with other parameters:
 
-```OPENCV DNN CUDA```
+```OPENCV_DNN_CUDA```
 
-![Pasted Graphic 10_1.png](blob:https://euangoddard.github.io/028f9f02-9d07-405c-84b0-33002d53a235)
+<img width="1440" alt="Pasted Graphic 10" src="https://user-images.githubusercontent.com/55566616/126864667-54bd1b00-87b6-431e-a910-6c78cfe843c1.png">
 
-```ENABLE FAST MATH```
+```ENABLE_FAST_MATH```
 
-![Pasted Graphic 11_1.png](blob:https://euangoddard.github.io/37c69c5f-b25c-4f6e-a893-292f981f11b1)
+<img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126864694-75830769-58ef-42eb-8db8-8a84d3768a78.png">
 
-```BUILD opency_world```
+```BUILD_opency_world```
 
-![Pasted Graphic 12_1.png](blob:https://euangoddard.github.io/a39b0657-c66e-422f-8ce8-4bb4ebee1ee4)
+<img width="1440" alt="Pasted Graphic 12" src="https://user-images.githubusercontent.com/55566616/126864695-9dee1f2a-09ba-49ef-8e09-0dd53ec0074a.png">
 
 ```opency_python```
 
-![Pasted Graphic 13_1.png](blob:https://euangoddard.github.io/8e3cdb0d-c832-4c3a-a5e3-a97c4e610be9)
+<img width="1440" alt="Pasted Graphic 13" src="https://user-images.githubusercontent.com/55566616/126864711-4c866117-33c3-4178-88fa-416d607f18b5.png">
 
 Next, set the folder for `OPENCV_EXTRA_MODULES_PATH' by clicking three-dot [...] button
 
