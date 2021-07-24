@@ -102,7 +102,9 @@ Choose files ```cmake-3.19.3-win64-x64.msi```, then run the installer to setup C
 <img width="487" alt="Welcome to the CMake Setup Wizard" src="https://user-images.githubusercontent.com/55566616/126864495-7202ea33-52d9-44c8-aaab-d6e1976e9ea7.png">
 <img width="487" alt="Welcome to the CMake Setup Wizard" src="https://user-images.githubusercontent.com/55566616/126864496-e0e5be17-89c3-47e3-94c2-aa520b4348bb.png">
 
-### (5) OpenCV Setup
+---
+
+## 02 OpenCV with CUDA in Base Environment
 
 Create a folder for OpenCV in you ```C:``` drive: ```OpenCV_Build```
 
@@ -299,20 +301,52 @@ Next search ```config``` keyword for ```MAKE CONFIGURATION TYPES``` then remove 
 
 <img width="1440" alt="Remove Debug" src="https://user-images.githubusercontent.com/55566616/126869689-f4a46d69-865b-4be1-a3c8-d740ab366b04.png">
 
+Now hit ```Configure``` button one last time:
 
+<img width="1440" alt="Pasted Graphic 30" src="https://user-images.githubusercontent.com/55566616/126870860-cde4b2eb-96ac-4045-aece-a4915f488253.png">
 
+Check again the ```OPENCV``` module using search keyword ```config```.
 
+Also, ```Python``` module should install ```Python-3.8``` in Anaconda install path ```/anaconda3/```
 
+Next hit ```Generate``` button:
 
+<img width="1440" alt="Pasted Graphic 31" src="https://user-images.githubusercontent.com/55566616/126870884-ea012a25-0fdd-4b8b-bad4-7d06702550dd.png">
 
+Now open Windows Command Shell (terminal) and type:
 
+```C:\OpenCV_Build>"C:\Program Files\CMake\bin\cmake.exe" --build "C:\OpenCV_Build\build" --target INSTALL --config Release```
 
+<img width="1117" alt="Pasted Graphic 33" src="https://user-images.githubusercontent.com/55566616/126870898-0bd1fecb-88d0-47af-84dc-e3ade689242f.png">
 
----
+If the process completed without any errors, then you are done.
 
-## 02 OpenCV with CUDA in Base Environment
+<img width="1116" alt="Pasted Graphic 34" src="https://user-images.githubusercontent.com/55566616/126870903-54318ec7-35c2-4c9a-8366-31c7936d7bad.png">
 
+The output of your generation is installed in folder:
 
+```(C:) › OpenCV_Build › build > lib > python3 › Release```
+
+<img width="1440" alt="Pasted Graphic 35" src="https://user-images.githubusercontent.com/55566616/126870912-c14ace49-0229-4357-a5bd-58f0b563ce8e.png">
+
+Same output will also be installed in folder:
+
+```(C:) › Users › Haroon.LAPTOP-IBPFI2VB > anaconda3 > Lib › site-packages › cv2 › python-3.8```
+
+<img width="1440" alt="Pasted Graphic 36" src="https://user-images.githubusercontent.com/55566616/126870927-17fb3c58-eda0-450e-9414-dfb21bb3304b.png">
+
+Now test your built process. You should be to import cv2.
+
+Open Terminal app and type ```python``` and in Python prompt, type: ```import cv2``` then hit ```<Enter>```
+
+<img width="1053" alt="Pasted Graphic 38" src="https://user-images.githubusercontent.com/55566616/126870940-289fd93d-abc2-4f4e-b7cd-95bdc403790b.png">
+
+You can also use this cv2 module by typing ```cv2. __version__```:
+```
+››› cv2. __version__
+'4.5.1'
+```
+<img width="1440" alt="YOLO" src="https://user-images.githubusercontent.com/55566616/126870952-77a4fa77-07a3-4d91-9731-2867364d10ef.png">
 
 ---
 
