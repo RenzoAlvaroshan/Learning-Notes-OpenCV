@@ -261,7 +261,8 @@ Move to modules folder: `(C:) OpenCV_Build › opencv_contrib-4.5.1 › modules`
 
 Hit again the `Configure` button. Now CMake should be able to find and detect `cudnn.lib` files and its suitable version.
 
-```- Found cuDNN: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/11b/x64/cudnn.lib (found suitable version "8.0.5", minimum required is "7.5")
+```
+- Found cuDNN: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/11b/x64/cudnn.lib (found suitable version "8.0.5", minimum required is "7.5")
 - CUDA detected: 11.0
 ```
 
@@ -319,7 +320,8 @@ Next hit `Generate` button:
 
 Now open Windows Command Shell (terminal) and type:
 
-```C:\OpenCV_Build>"C:\Program Files\CMake\bin\cmake.exe" --build "C:\OpenCV_Build\build" --target INSTALL --config Release
+```
+C:\OpenCV_Build>"C:\Program Files\CMake\bin\cmake.exe" --build "C:\OpenCV_Build\build" --target INSTALL --config Release
 ```
 
 <img width="1117" alt="Pasted Graphic 33" src="https://user-images.githubusercontent.com/55566616/126870898-0bd1fecb-88d0-47af-84dc-e3ade689242f.png">
@@ -330,14 +332,16 @@ If the process completed without any errors, then you are done.
 
 The output of your generation (build) would be installed in folder:
 
-```(C:) › OpenCV_Build › build > lib > python3 › Release
+```
+(C:) › OpenCV_Build › build > lib > python3 › Release
 ```
 
 <img width="1440" alt="Pasted Graphic 35" src="https://user-images.githubusercontent.com/55566616/126870912-c14ace49-0229-4357-a5bd-58f0b563ce8e.png">
 
 Same output will also be installed in folder:
 
-```(C:) › Users › Haroon.LAPTOP-IBPFI2VB > anaconda3 > Lib › site-packages › cv2 › python-3.8
+```
+(C:) › Users › Haroon.LAPTOP-IBPFI2VB > anaconda3 > Lib › site-packages › cv2 › python-3.8
 ```
 
 <img width="1440" alt="Pasted Graphic 36" src="https://user-images.githubusercontent.com/55566616/126870927-17fb3c58-eda0-450e-9414-dfb21bb3304b.png">
@@ -350,7 +354,8 @@ Open Terminal app and type `python` and in Python prompt, type: `import cv2` the
 
 You can also use this cv2 module by typing `cv2. __version__`:
 
-```››› cv2. __version__
+```
+››› cv2. __version__
 '4.5.1'
 ```
 
@@ -362,7 +367,8 @@ You can also use this cv2 module by typing `cv2. __version__`:
 
 Now create a `virtual environment` by typing the following command in terminal:
 
-```(base) C:\Users \Haroon.LAPTOP-IBPFI2VB›conda create -n opencv_gpu python=3.8
+```
+(base) C:\Users \Haroon.LAPTOP-IBPFI2VB›conda create -n opencv_gpu python=3.8
 ```
 
 <img width="1052" alt="Pasted Graphic 41" src="https://user-images.githubusercontent.com/55566616/126873116-f51f0871-37dc-4b86-98a3-2e87d1e297e4.png">
@@ -373,7 +379,8 @@ Click ``y`
 
 However if you try to activate the OpenCV by typing:
 
-```(base) C:\Users\Haroon.LAPTOP-IBPFI2VB>conda activate opencv_gpu
+```
+(base) C:\Users\Haroon.LAPTOP-IBPFI2VB>conda activate opencv_gpu
 (opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>
 ```
 
@@ -381,14 +388,16 @@ However if you try to activate the OpenCV by typing:
 
 And try to import OpenCV in your Python script by typing:
 
-```(opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>python<Enter>
+```
+(opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>python<Enter>
 
 >>> import cv2
 ```
 
 you will get an error:
 
-```ModuleNotFoundError: No module named 'cv2'
+```
+ModuleNotFoundError: No module named 'cv2'
 ```
 
 <img width="1051" alt="Pasted Graphic 45" src="https://user-images.githubusercontent.com/55566616/126873232-100ad9db-bdc0-46d0-aae3-2a0a592c8886.png">
@@ -407,12 +416,14 @@ Then click `Open` button.
 
 Now the path is modified from:
 
-```C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/python.exe
+```
+C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/python.exe
 ```
 
 to:
 
-```C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/**envs/opencv_gpu/**python.exe
+```
+C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/**envs/opencv_gpu/**python.exe
 ```
 
 <img width="1440" alt="Pasted Graphic 50" src="https://user-images.githubusercontent.com/55566616/126873273-16f8e89f-ccf6-49bf-9a1a-0784490999dd.png">
@@ -432,7 +443,8 @@ Previously we have installed Numpy for `base environment`, but have not yet for 
 
 Now let’s do that again for virtual environment. Open terminal and type:
 
-```(opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>pip install --upgrade numpy
+```
+(opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>pip install --upgrade numpy
 ```
 
 <img width="901" alt="Pasted Graphic 52" src="https://user-images.githubusercontent.com/55566616/126873355-09de1a9a-ef97-4912-a051-86759a770831.png">
@@ -453,21 +465,24 @@ Next, hit `Generate` button to build OpenCV in virtual environment:
 
 Now open Windows Command Shell (terminal) and type:
 
-```C:\OpenCV_Build>"C:\Program Files\CMake\bin\cmake.exe" --build "C:\OpenCV_Build\build" --target INSTALL --config Release
+```
+C:\OpenCV_Build>"C:\Program Files\CMake\bin\cmake.exe" --build "C:\OpenCV_Build\build" --target INSTALL --config Release
 ```
 
 <img width="894" alt="Pasted Graphic 56" src="https://user-images.githubusercontent.com/55566616/126873427-4d10b1a5-abc6-4677-bbaa-4a2968e35777.png">
 
 And try to import OpenCV in your Python script by typing:
 
-```(opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>python <Enter>
+```
+(opencv_gpu) C:\Users\Haroon.LAPTOP-IBPFI2VB>python <Enter>
 
 >>> import cv2
 ```
 
 Also, you can now use this cv2 module by typing ```cv2. __version__```:
 
-```››› cv2. __version__
+```
+››› cv2. __version__
 '4.5.1'
 ```
 
@@ -475,7 +490,8 @@ Also, you can now use this cv2 module by typing ```cv2. __version__```:
 
 Finally, you test your OpenCV installed base using the following script:
 
-```(base) C:\OpenCV_Build›python test_script.py
+```
+(base) C:\OpenCV_Build›python test_script.py
 ```
 
 [test_script.py] (https://github.com/haroonshakeel/opencv4.5.1_with_cuda_gpu/blob/main/test_script.py): github.com/haroonshakeel/opencv4.5.1_with_cuda_gpu/blob/main/test_script.py
