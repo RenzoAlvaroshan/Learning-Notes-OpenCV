@@ -301,7 +301,7 @@ and select this folder by hitting `Select Folder` button:
 
 <img width="1103" alt="Pasted Graphic 26" src="https://user-images.githubusercontent.com/55566616/126869686-3e759658-0a59-4ad2-9fc8-2a689684cebe.png">
 
-Next search `config` keyword for `MAKE CONFIGURATION TYPES` then remove one of its value: `Debug;` but leave the other value: `Release`
+Next search `config` keyword for `MAKE_CONFIGURATION_TYPES` then remove one of its value: `Debug;` but leave the other value: `Release`
 
 <img width="1440" alt="Remove Debug" src="https://user-images.githubusercontent.com/55566616/126869689-f4a46d69-865b-4be1-a3c8-d740ab366b04.png">
 
