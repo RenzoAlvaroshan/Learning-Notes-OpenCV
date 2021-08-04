@@ -423,12 +423,20 @@ C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/python.exe
 to:
 
 ```
-C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/**envs/opencv_gpu/**python.exe
+C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/envs/opencv_gpu/python.exe
 ```
 
 <img width="1440" alt="Pasted Graphic 50" src="https://user-images.githubusercontent.com/55566616/126873273-16f8e89f-ccf6-49bf-9a1a-0784490999dd.png">
 
 Now add the same new path for OpenCV virtual environment to other modules:
+
+<img width="1440" alt="01" src="https://user-images.githubusercontent.com/55566616/128101429-a06d8fdb-e628-4da3-9afe-8ea79b0d2341.png">
+
+<img width="1440" alt="02" src="https://user-images.githubusercontent.com/55566616/128101444-78889d01-8a53-4204-8835-bf23166b24d3.png">
+
+<img width="1440" alt="03" src="https://user-images.githubusercontent.com/55566616/128101455-bc252a7f-b540-4624-a7dd-ed62b3cc0f7b.png">
+
+<img width="1440" alt="04" src="https://user-images.githubusercontent.com/55566616/128101471-0b552184-7885-448d-bcf1-f1e67b045e15.png">
 
 ```
 /envs/include                                    to  /envs/opencv_gpu/include
