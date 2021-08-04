@@ -374,7 +374,7 @@ Now create a `virtual environment` by typing the following command in terminal:
 
 <img width="1052" alt="Pasted Graphic 41" src="https://user-images.githubusercontent.com/55566616/126873116-f51f0871-37dc-4b86-98a3-2e87d1e297e4.png">
 
-Click ``y`
+Click `y`
 
 <img width="1051" alt="Pasted Graphic 42" src="https://user-images.githubusercontent.com/55566616/126873132-3cfd07f3-9adf-4f21-afe9-896977a6d529.png">
 
