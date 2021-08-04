@@ -52,9 +52,9 @@ Select `Desktop development with C++` option for Studio Code C++ support
 
 Now download [CUDA Toolkit 11.0 Update Downloads](developer.nvidia.com/cuda-11.0-update1-download-archive?target_os=Windows&target_arch=x86_64): `developer.nvidia.com/cuda-11.0-update1-download-archive?target_os=Windows&target_arch=x86_64`
 
-<img width="1440" alt="Resources" src="https://user-images.githubusercontent.com/55566616/126863551-7019a69a-7f41-4b75-bc71-7ee6a98f8afb.png">
-
 Choose `Windows` operating system for `Select Target Platform`.
+
+<img width="1440" alt="Resources" src="https://user-images.githubusercontent.com/55566616/126863551-7019a69a-7f41-4b75-bc71-7ee6a98f8afb.png">
 
 <img width="1440" alt="CUDA Toolkit Archive" src="https://user-images.githubusercontent.com/55566616/126863557-16f0e0f4-6d68-4004-9386-608281295170.png">
 
