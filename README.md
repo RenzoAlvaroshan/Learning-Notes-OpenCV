@@ -34,7 +34,7 @@ Download [Anaconda Installer](anaconda.com/products/individual): `anaconda.com/p
 
 ### (2) Microsoft Visual Studio
 
-Next, download [Visual Studio Community 2019 16.7.2](https://visualstudio.microsoft.com/vs/community/) Community Edition: `https://visualstudio.microsoft.com/vs/community/`
+Next, download [Visual Studio Community 2019 16.7.2](https://visualstudio.microsoft.com/vs/community/) — the Community Edition: `https://visualstudio.microsoft.com/vs/community/`
 
 <img width="1440" alt="Screen Shot 2021-08-04 at 16 32 31" src="https://user-images.githubusercontent.com/55566616/128158376-40d6c9bf-6643-48db-b7bc-dd477432e5a2.png">
 
