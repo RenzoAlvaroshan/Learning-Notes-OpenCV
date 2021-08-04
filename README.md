@@ -1,4 +1,5 @@
 # Learning Notes - Build and Install OpenCV with CUDA on Windows 10
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/55566616/128101535-1b8cad8a-d3b4-4832-8f2a-101d492ef540.png">
 
 Learning Notes - Build and Install OpenCV with CUDA GPU Support on Windows 10 | OpenCV 4.5.1 | 2021
 
@@ -428,15 +429,17 @@ C:/Users/Haroon.LAPTOP-IBPFI2VB/anaconda3/envs/opencv_gpu/python.exe
 
 <img width="1440" alt="Pasted Graphic 50" src="https://user-images.githubusercontent.com/55566616/126873273-16f8e89f-ccf6-49bf-9a1a-0784490999dd.png">
 
-Now add the same new path for OpenCV virtual environment to other modules:
+Now add the same new path for OpenCV virtual environment to other **modules**:
 
-<img width="1440" alt="01" src="https://user-images.githubusercontent.com/55566616/128101429-a06d8fdb-e628-4da3-9afe-8ea79b0d2341.png">
+<img width="1437" alt="01" src="https://user-images.githubusercontent.com/55566616/128101693-34abbb5a-005c-48b2-a1ce-e2e466768b55.png">
 
-<img width="1440" alt="02" src="https://user-images.githubusercontent.com/55566616/128101444-78889d01-8a53-4204-8835-bf23166b24d3.png">
+<img width="1437" alt="02" src="https://user-images.githubusercontent.com/55566616/128101738-51b4a9db-87d2-4065-9e43-ebeff22b93b6.png">
 
-<img width="1440" alt="03" src="https://user-images.githubusercontent.com/55566616/128101455-bc252a7f-b540-4624-a7dd-ed62b3cc0f7b.png">
+<img width="1436" alt="03" src="https://user-images.githubusercontent.com/55566616/128101751-6fbf0706-04e2-46db-89aa-21db35dc5b89.png">
 
-<img width="1440" alt="04" src="https://user-images.githubusercontent.com/55566616/128101471-0b552184-7885-448d-bcf1-f1e67b045e15.png">
+<img width="1437" alt="04" src="https://user-images.githubusercontent.com/55566616/128101764-d7fe33ea-5f8a-4551-8c61-d090ae023585.png">
+
+<img width="1440" alt="Pasted Graphic 51" src="https://user-images.githubusercontent.com/55566616/126873341-1a7f329e-1466-45ca-af19-a8e6542a9b7a.png">
 
 ```
 /envs/include                                    to  /envs/opencv_gpu/include
@@ -444,8 +447,6 @@ Now add the same new path for OpenCV virtual environment to other modules:
 /anaconda3/libs/python38.lib                     to  /anaconda3/envs/opencv_gpu/libs/python38.lib
 /anaconda3/lib/site-packages/numpy/core/include  to  /anaconda3/envs/opencv_gpu/lib/site-packages/numpy/core/include
 ```
-
-<img width="1440" alt="Pasted Graphic 51" src="https://user-images.githubusercontent.com/55566616/126873341-1a7f329e-1466-45ca-af19-a8e6542a9b7a.png">
 
 Previously we have installed Numpy for `base environment`, but have not yet for `virtual environment`.
 
