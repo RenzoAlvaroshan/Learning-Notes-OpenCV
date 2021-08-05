@@ -249,11 +249,11 @@ Similarly with other parameters:
 
 <img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126864694-75830769-58ef-42eb-8db8-8a84d3768a78.png">
 
-`BUILD_opency_world`
+`BUILD_opencv_world`
 
 <img width="1440" alt="Pasted Graphic 12" src="https://user-images.githubusercontent.com/55566616/126864695-9dee1f2a-09ba-49ef-8e09-0dd53ec0074a.png">
 
-`opency_python`
+`opencv_python`
 
 <img width="1440" alt="Pasted Graphic 13" src="https://user-images.githubusercontent.com/55566616/126864711-4c866117-33c3-4178-88fa-416d607f18b5.png">
 
